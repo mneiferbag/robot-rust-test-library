@@ -131,3 +131,5 @@ dmypy.json
 # Rust
 target/
 
+# General
+log/
