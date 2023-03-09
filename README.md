@@ -27,4 +27,4 @@ Run test with Rust keywords using `robot --outputdir ./log ./rust_tests/rust_key
 
 ## Tasks
 
-[x] Create hello world example
+- [x] Create hello world example
