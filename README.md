@@ -1,8 +1,10 @@
-# Robot Framework Test Library Example Rust
+# Robot Framework - Test Library Example Rust
 
 Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
-[Robot Framework](https://robotframework.org/) example for test library implemented in Rust. Example includes code written in Python and Rust.
+[Robot Framework](https://robotframework.org/) example for test library implemented in Rust. Example includes code written in Robot Framework, Python and Rust.
+
+[![CodeQL](https://github.com/mneiferbag/robot-rust-test-library/actions/workflows/codeql.yml/badge.svg)](https://github.com/mneiferbag/robot-rust-test-library/actions/workflows/codeql.yml)
 
 ## How To Run
 
@@ -25,4 +27,4 @@ Run test with Rust keywords using `robot --outputdir ./log ./rust_tests/rust_key
 
 ## Tasks
 
-[ ] Create hello world example
+[x] Create hello world example
