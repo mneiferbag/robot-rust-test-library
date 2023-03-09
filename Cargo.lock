@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "RustyLibrary"
+version = "0.1.0"
+dependencies = [
+ "pyo3",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -165,13 +172,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a"
 dependencies = [
  "bitflags",
-]
-
-[[package]]
-name = "robot_rust_test_library"
-version = "0.1.0"
-dependencies = [
- "pyo3",
 ]
 
 [[package]]

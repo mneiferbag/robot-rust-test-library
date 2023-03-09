@@ -1,11 +1,11 @@
 [package]
-name = "robot_rust_test_library"
+name = "RustyLibrary"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "robot_rust_test_library"
+name = "RustyLibrary"
 crate-type = ["cdylib"]
 
 [dependencies]
