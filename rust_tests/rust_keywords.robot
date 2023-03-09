@@ -11,5 +11,5 @@ Library          robot_rust_test_library
 *** Test Cases ***
 Keyword Argument Conversion Test
     ${x} =    Sum As String    ${5}    ${20}
-    Log To Console    We got ${x}
+    Should Be Equal    ${x}    25
 
