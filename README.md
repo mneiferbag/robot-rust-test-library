@@ -20,10 +20,11 @@ Run test with Rust keywords using `robot --outputdir ./log ./rust_tests/rust_key
 
 * Robot Framework
   * [FTP and Database Example](https://github.com/mneiferbag/robot-ftp-db)
+  * [Test Library Example Python](https://github.com/mneiferbag/robot-python-test-library)
 * Rust
   * [PyO3](https://pyo3.rs/) - Rust bindings for Python, including tools for creating native Python extension modules
 
 ## Tasks
 
-- [x] Create hello world example
+* [x] Create hello world example
 
