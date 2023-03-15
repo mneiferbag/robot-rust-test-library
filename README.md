@@ -6,6 +6,8 @@ Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
 ## How To Run
 
+This example can be run as follows.
+
 Create virtual environment with `python -m venv .venv`.
 
 Restore packages with `pip install -r requirements.txt`.
@@ -15,6 +17,8 @@ Check installation with `robot --version`.
 Build Rust library with `maturin develop`. Note: PyO3 uses [maturin](https://www.maturin.rs/), a tool for building and publishing Rust-based Python packages.
 
 Run test with Rust keywords using `robot --outputdir ./log ./rust_tests/rust_keywords.robot`.
+
+For more information on extending Robot Framework with test libraries written in Python, see chapter [Creating test libraries](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-libraries) in the user guide.
 
 ## Links
 
@@ -26,5 +30,4 @@ Run test with Rust keywords using `robot --outputdir ./log ./rust_tests/rust_key
 
 ## Tasks
 
-* [x] Create hello world example
-
+- [x] Create hello world example
