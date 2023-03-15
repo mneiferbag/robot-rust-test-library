@@ -15,8 +15,14 @@ fn sum_as_string(a: usize, b: usize) -> PyResult<String> {
     Ok((a + b).to_string())
 }
 
+#[pyfunction]
+fn join_strings(a: Vec<String>) -> PyResult<String> {
+    Ok(a.join(","))
+}
+
 #[pymodule]
 fn RustyLibrary(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(sum_as_string, m)?)?;
+    m.add_function(wrap_pyfunction!(join_strings, m)?)?;
     Ok(())
 }
