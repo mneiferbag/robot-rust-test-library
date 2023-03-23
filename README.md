@@ -10,6 +10,8 @@ This example can be run as follows.
 
 Create virtual environment with `python -m venv .venv`.
 
+Activate virtual environment with `source .venv/bin/activate` for Linux bash. Or with `.venv\Scripts\activate.bat` for Windows command line.
+
 Restore packages with `pip install -r requirements.txt`.
 
 Check installation with `robot --version`.
@@ -30,4 +32,5 @@ For more information on extending Robot Framework with test libraries written in
 
 ## Tasks
 
+- [ ] Evaluate keyword with dictionary argument
 - [x] Create hello world example
