@@ -18,3 +18,9 @@ List Argument Conversion Test
 
     ${y} =    Join Strings    ${MY_LIST}
     Should Be Equal    ${y}    foo,bar
+
+Dictionary Argument Conversion Test
+    &{MY_DICT} =    Create Dictionary    spam    ${11}    eggs    ${22}
+
+    ${z} =    Sum Values    ${MY_DICT}
+    Should Be Equal    ${z}    ${33}
