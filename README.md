@@ -33,4 +33,5 @@ For more information on extending Robot Framework with test libraries written in
 ## Tasks
 
 - [ ] Evaluate keyword with dictionary argument
+- [ ] Evaluate default argument values
 - [x] Create hello world example
