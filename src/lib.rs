@@ -38,3 +38,26 @@ fn RustyLibrary(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(sum_values, m)?)?;
     Ok(())
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn sum_as_string_test() {
+        assert_eq!("25", sum_as_string(5, 20).unwrap());
+    }
+
+    #[test]
+    fn join_strings_test() {
+        let foo = String::from("foo");
+        let bar = String::from("bar");
+        let the_strings = vec![foo, bar];
+        assert_eq!("foo,bar", join_strings(the_strings).unwrap());
+    }
+
+    // #[test]
+    // fn sum_values_test() {
+    //     TODO
+    // }
+}
