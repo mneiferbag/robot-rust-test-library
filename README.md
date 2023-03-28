@@ -32,6 +32,7 @@ For more information on extending Robot Framework with test libraries written in
 
 ## Tasks
 
+- [ ] Add unit tests
 - [ ] Evaluate default argument values
 - [x] Evaluate keyword with dictionary argument
 - [x] Create hello world example
